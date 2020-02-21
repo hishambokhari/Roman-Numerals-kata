@@ -13,5 +13,9 @@ describe RomanNumerals do
     it 'should be able to convert 10 to X' do
       expect(subject.convert(10)).to eq('X')
     end
+
+    it 'should be able to convert 10 to X' do
+      expect(subject.convert(35)).to eq('XXXV')
+    end
   end
 end
